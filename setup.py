@@ -8,9 +8,7 @@ setup(
     install_requires=[
         "pytest",
     ],
-    entry_points={
-        "console_scripts": ["console-test-runner=main:main"]
-    },
+    entry_points={"console_scripts": ["console-test-runner=main:main"]},
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
